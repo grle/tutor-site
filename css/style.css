@@ -1,0 +1,205 @@
+/**************** TAG SELECTORS */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Sacramento", sans-serif;
+  font-size: 7rem;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  /* border-color: var(--dark); */
+  border-width: 5px;
+  width: 50px;
+  opacity: .5;
+  /* margin: 3rem auto; */
+}
+
+/**************** CLASS SELECTORS */
+/* CUSTOM */
+.dark-blue {
+  color: #66BFBF;
+}
+
+.dark-blue-bg {
+  background-color: #66BFBF;
+}
+
+.light-blue {
+  color: #EAF6F6;
+}
+
+.light-blue-bg {
+  background-color: #EAF6F6;
+}
+
+/* HEADER */
+.top-container {
+  font-weight: lighter;
+}
+
+.top-container h2 {
+  font-weight: 400;
+}
+
+.banner {
+  margin: 5rem auto;
+  max-width: 850px;
+}
+
+.header-text {
+  position: relative;
+  top: 62px;
+}
+
+.green-apple {
+  height: 300px;
+}
+
+.headshot {
+  width: 100%;
+  /* border-radius: 100%; */
+}
+
+.p-sides {
+  padding: 10% 20%;
+}
+
+/* SPACING CONTAINERS*/
+.section-padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.subj-container {
+  max-width: 700px;
+  margin-bottom: 1rem;
+}
+
+.ed-container {
+  max-width: 800px;
+}
+
+.msg-box {
+  height: 300px;
+}
+
+/* PAYMENT CARDS */
+.card {
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  max-width: 1000px;
+  margin-bottom: 2rem;
+}
+
+.card-container h3 {
+  color: white;
+}
+
+/* CAROUSEL */
+.carousel {
+  margin: 1rem auto 2rem auto;
+}
+
+.testimonial-block {
+  height: 18rem;
+  margin: auto;
+  padding: 2% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+  {
+  filter: invert(100%);
+}
+
+/* NAVBAR */
+.navbar-toggler {
+  border: hidden;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  padding: 13px 18px;
+}
+
+.navbar-brand:hover {
+  transition: all .25s ease-in;
+  color: grey;
+}
+
+.container-fluid {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar {
+  padding: 0 3%;
+}
+
+.nav-item {
+  padding: 5px 18px;
+}
+
+.btn-light {
+  color: white;
+  background-color: #66BFBF;
+}
+
+.btn-light:hover {
+  background-color: #EAF6F6;
+  border-color: #66BFBF;
+  color: #66BFBF;
+}
+
+.btn-light:focus {
+  background-color: #EAF6F6;
+  border-color: #66BFBF;
+  color: #66BFBF;
+  box-shadow: none;
+}
+
+/* FOOTER */
+.footer-container hr {
+  border-color: white;
+}
+
+.footer-container h3 {
+  margin-top: 2rem;
+}
+
+.bottom-text {
+  margin-bottom: 0;
+  margin-top: 2rem;
+  font-size: 12px;
+}
+
+.foot-link {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-link:hover {
+  color: #cdcd;
+  transition: all .25s ease-in;
+}
+
+/**************** RESPONSIVENESS */
+@media (max-width: 1000px) {
+  .header-text {
+    top: 0;
+  }
+}
